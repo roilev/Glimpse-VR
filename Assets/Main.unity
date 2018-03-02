@@ -785,6 +785,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8286f25a073b3c949b01cfff23775259, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &434360186 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 1015f3456afb94a2280806e24a5e3eec, type: 3}
+  m_PrefabInternal: {fileID: 204579138}
 --- !u!1001 &442685808
 Prefab:
   m_ObjectHideFlags: 0
@@ -1920,6 +1924,7 @@ GameObject:
   - component: {fileID: 1154228309}
   - component: {fileID: 1154228308}
   - component: {fileID: 1154228311}
+  - component: {fileID: 1154228312}
   m_Layer: 0
   m_Name: Beginning Collider
   m_TagString: Untagged
@@ -1977,6 +1982,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visit: 1
   visitorNumber: 0
+--- !u!114 &1154228312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1154228307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f716459a4854ed3936553c01217cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 740642270}
+  - {fileID: 327865129}
+  - {fileID: 434360186}
+  - {fileID: 2058107895}
+  - {fileID: 1756461185}
+  randomizer: glimpse_randomize.txt
 --- !u!1001 &1214493962
 Prefab:
   m_ObjectHideFlags: 0
@@ -3205,6 +3228,10 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 497214, guid: 009b4ee932b89eb449e756462b6b92c0, type: 2}
   m_PrefabInternal: {fileID: 793344365}
+--- !u!1 &1756461185 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 1015f3456afb94a2280806e24a5e3eec, type: 3}
+  m_PrefabInternal: {fileID: 695587709}
 --- !u!1001 &1800712838
 Prefab:
   m_ObjectHideFlags: 0
@@ -3561,3 +3588,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2058107895 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 00432422d5edf4305ac09c36c5ad97fd, type: 3}
+  m_PrefabInternal: {fileID: 261075912}
